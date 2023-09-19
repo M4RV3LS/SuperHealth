@@ -646,6 +646,46 @@ video {
   right: 0.25rem;
 }
 
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-\[0\.1rem\] {
+  top: 0.1rem;
+}
+
+.top-\[0\.15rem\] {
+  top: 0.15rem;
+}
+
+.top-\[0\.12rem\] {
+  top: 0.12rem;
+}
+
+.top-\[0\.2rem\] {
+  top: 0.2rem;
+}
+
+.top-\[0\.18rem\] {
+  top: 0.18rem;
+}
+
+.top-\[1rem\] {
+  top: 1rem;
+}
+
+.top-\[0\.8rem\] {
+  top: 0.8rem;
+}
+
+.top-\[0\.75rem\] {
+  top: 0.75rem;
+}
+
+.top-\[0\.7rem\] {
+  top: 0.7rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -740,6 +780,18 @@ video {
   margin-left: auto;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -816,6 +868,18 @@ video {
   height: 20rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -877,6 +941,14 @@ video {
   width: 20rem;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -913,8 +985,16 @@ video {
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -929,13 +1009,35 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-20 {
   gap: 5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
+}
+
+.gap-x-6 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -962,6 +1064,14 @@ video {
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .border {
@@ -1064,6 +1174,22 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-4 {
@@ -1357,6 +1483,18 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1443,6 +1581,16 @@ video {
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .sm\:text-xl {

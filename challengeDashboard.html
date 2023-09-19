@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Dashboard</title>
+    <link href="output.css" rel="stylesheet">
+    <link href="challengeDashboard.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@700&family=Volkhov:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="p-4">
+
+        <!-- Header Section -->
+        <header class="p-2">
+            <div class="flex items-center gap-x-8">
+                <img src="./public/image/backArrow.svg" alt="">
+                <div class="text-xl poppins">Health Challengges</div>
+                <img src="./public/image/avatar.svg" alt="" class="mr-4">
+            </div>
+        </header>
+
+        <section id="subHeader" class="mt-6">
+            <div class="flex gap-2">
+                <!-- badge -->
+                <div class="flex items-center">
+                    <img src="./public/image/badge.svg" alt="" class="w-8 h-8">
+                    <div class="ml-1 text-xs">15 badge</div>
+                </div>
+
+                <!-- Complete Task -->
+                <div class="flex items-center ml-2">
+                    <img src="./public/image/approval.svg" alt="" class="w-8 h-8">
+                    <div class="ml-1 text-xs">20 Complete Task</div>
+                </div>
+
+                <!-- Point -->
+                <div class="flex items-center ml-2">
+                    <img src="./public/image/point.svg" alt="" class="w-8 h-8">
+                    <div class="ml-1 text-xs">2500 point</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="searchBar" class="mt-6">
+            <div class="relative">
+                <input type="text" id="search" name="search" class="w-full h-12 border rounded-lg shadow-md ">
+                <img src="./public/image/search.svg" alt="" class="absolute top-[0.7rem] left-0.2">
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
