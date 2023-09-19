@@ -5,12 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge</title>
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
     <link href="output.css" rel="stylesheet">
+    <link href="Challenge.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@700&family=Volkhov:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.2.2/cdn.js" defer></script>
 </head>
 
 <body>
-    <div class="p-16 bg-red-500">Hello</div>
+
+    <div class="w-full">
+        <!-- Left -->
+        <div class="sm:w-4/12 sm:h-screen sm:bg-[#D8E5E2] flex flex-col p-16 sm:gap-y-2">
+            <h1 class="font-bold text-center poppins sm:text-[3rem]">Run Challenge</h1>
+
+            <!-- circle -->
+            <div class="relative flex justify-center m-4">
+                <svg class="transform translate-x-1 translate-y-1 h-80 w-80" aria-hidden="true"
+                    x-data="{ circumference: 160 * 2 * Math.PI, percent: 80 }">
+                    <circle class="text-[#E0BA9E]" stroke-width="10" stroke="currentColor" fill="transparent" r="140"
+                        cx="160" cy="160">
+                    </circle>
+                    <circle class="text-[#97C9DF]" stroke-width="10" stroke="currentColor" fill="transparent" r="110"
+                        cx="160" cy="160">
+                    </circle>
+                    <circle class="text-[#0089D9]" stroke-width="10" :stroke-dasharray="circumference"
+                        :stroke-dashoffset="circumference - percent / 160 * circumference" stroke-linecap="round"
+                        stroke="currentColor" fill="transparent" r="110" cx="160" cy="160"
+                        stroke-dasharray="314.1592653589793" stroke-dashoffset="62.83185307179585"></circle>
+                </svg>
+
+                <!-- Circle Text -->
+                <div class="absolute flex flex-col justify-center top-24 align-items-center ">
+                    <div class="text-center text-[4rem] poppins">
+                        3
+                    </div>
+                    <div class="text-center text-[1.75rem] text-[#0089D9] ">
+                        4500
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex sm:gap-x-2">
+                
+            </div>
+
+        </div>
+
+        <!-- Right -->
+    </div>
+
+
+    <script src="Challenge.js" charset="utf-8"></script>
 </body>
 
 </html>
