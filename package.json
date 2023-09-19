@@ -6,6 +6,11 @@
   "dependencies": {
     "flowbite": "^1.8.1",
     "react-tailwindcss-datepicker": "^1.6.6",
-    "tw-elements": "^1.0.0"
+    "tw-elements": "^1.0.0",
+    "daisyui": "^3.7.5",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "flowbite": "^1.8.1"
   }
 }
