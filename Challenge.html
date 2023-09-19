@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge</title>
     <link href="output.css" rel="stylesheet">
-    <link href="Challenge.css" rel="stylesheet">
+    <link href="challenge.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,7 +19,7 @@
 
     <div class="w-full">
         <!-- Left -->
-        <div class="sm:w-4/12 sm:h-screen sm:bg-[#D8E5E2] flex flex-col p-16 sm:gap-y-2">
+        <div class="sm:w-4/12 sm:h-screen sm:bg-[#D8E5E2] flex flex-col p-16 sm:gap-y-2 items-center">
             <h1 class="font-bold text-center poppins sm:text-[3rem]">Run Challenge</h1>
 
             <!-- circle -->
@@ -43,14 +43,26 @@
                     <div class="text-center text-[4rem] poppins">
                         3
                     </div>
-                    <div class="text-center text-[1.75rem] text-[#0089D9] ">
+                    <div class="text-center text-[2rem] text-[#0089D9] font-medium">
                         4500
                     </div>
                 </div>
             </div>
 
-            <div class="flex sm:gap-x-2">
-                
+            <div class="flex justify-around w-4/5 mt-4 sm:gap-x-2">
+
+                <!-- Heart PTS -->
+                <div class="flex align-items">
+                    <img src="./public/image/blueHeart.svg" alt="" />
+                    <p class="text-center poppins text-[1.5rem] ml-4">Heart Pts</p>
+                </div>
+
+                <!-- Heart Steps -->
+                <div class="flex items-center">
+                    <img src="./public/image/footstep.svg" alt="" />
+                    <p class="text-center poppins text-[1.5rem] ml-4">Steps</p>
+                </div>
+
             </div>
 
         </div>
